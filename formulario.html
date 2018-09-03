@@ -13,8 +13,8 @@
 	<nav>
 		<ul>
 			<li><a href="pagina.html#">Inicio</a></li>
-			<li><a href="#">Acerca de</a></li>
-			<li><a href="formulario.html#">Contesta estas preguntas</a></li>
+			<li><a href="acerca.html#">Acerca de</a></li>
+			<li><a href="#">Contesta estas preguntas</a></li>
 			<li><a href="canciones.html#">Canciones</a></li>
 			<li><a href="redessociales.html#">Redes Sociales</a>
 			<ul>
@@ -24,14 +24,45 @@
 			</li>
 		</ul>
 	</nav>
-	<div id="biografia">
-		<h2>Luis Enrique Ruiz Estudillo</h2>
-		<p></p>
-		<table>
-			<tr><td>Celular</td><td>7122575181</td></tr>
-			<tr><td>Correo</td><td>rike28drako@gmail.com</td></tr>
-		</table>
-		
+	//aqui empeze
+		<fieldset>
+			<legend>Tus datos de contacto</legend>
+
+			<label for="apellidos">¿Cuáles son tus apellidos?</label></<br>
+			<input type="text" name="apellido" id="apellido" /></br></br>
+
+			<label for="nombre">¿Cuál es tu nombre?</label></<br>
+			<input type="text" name="nombre" id="nombre" /></br></br>
+
+			<label for="nombre">¿Cuál es tu edad?</label></<br>
+			<input type="text" name="edad" id="edad" /></br></br>
+
+
+			<label for="email">¿Cuál es tu correo electrónico?</label></<br>
+			<input type="email" name="email" id="email" /></br></br>
+		</fieldset>
+
+		<fieldset>
+			<legend>Tu tenologia</legend>
+
+			<p>
+				Selecciona la tecnología que tú utilizas:</br>
+
+				<input type="radio" name="tecno" value="android" id="android" /><label for="android">Android</label></br></br>
+
+				<input type="radio" name="tecno" value="ios" id="ios" /><label for="ios">IOS</label></br></br>
+
+				<input type="radio" name="tecno" value="windows" id="windows" /><label for="windows">Windows</label></br></br>
+
+				<input type="radio" name="tecno" value="otro" id="otro" /><label for="otro">Otro</label></br></br>
+			</p>
+
+			<p>
+				<label for="specs">Si has elegido "Otro", especifica cuál</label></br></br>
+				<textarea name="specs" id="specs" cols="40" rows="4"></textarea>
+			</p>
+		</fieldset>
+	//aqui termine
 	</div>
 <footer>
 		<p>Todos los derechos Enrique Ruiz</p>
